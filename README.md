@@ -32,6 +32,6 @@ Three examples on Jupyter Notebooks are presented:
 
 ### Citation
 If you use these codes, please cite:<br>
-Renmin Pretell. (2023). RPretellD/gmms: Initial release (0.1.0). Zenodo. http://zenodo.org/10.5281/zenodo.10127855<br>
+Renmin Pretell. (2023). RPretellD/gmms: Initial release (0.1.0). Zenodo. https://doi.org/10.5281/zenodo.10127855<br>
 
 [![DOI](https://zenodo.org/badge/716445161.svg)](https://zenodo.org/doi/10.5281/zenodo.10127854)
