@@ -139,7 +139,7 @@ def get_bearing_cy(double lat1, double lon1, double lat2, double lon2):
 	cdef double y = sin(lon2-lon1)*cos(lat2) 
 	cdef double x = cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(lon2-lon1)
 	cdef double theta   = atan2(y,x)
-	cdef double bearing = (theta+2*pi)%(2*pi) #RP - Edit that might lead to errors
+	cdef double bearing = (theta+2*pi)%(2*pi)
 	return bearing
 
 @cython.boundscheck(False)
@@ -194,7 +194,7 @@ cdef d2t(P):
 	d1 = E0[0]*B[0]+E0[1]*B[1]+E0[2]*B[2]
 	e1 = E1[0]*B[0]+E1[1]*B[1]+E1[2]*B[2]
 
-	detinv = 1/(a1*c1-b1*d1)
+	detinv = 1/(a1*c1-b1*b1)
 	s1     = (b1*e1-c1*d1)*detinv
 	t1     = (b1*d1-a1*e1)*detinv
 
@@ -246,7 +246,7 @@ cdef d2t(P):
 	E_clst[1,0] = P[1,0]+f*(P[1,1]-P[1,0])
 	E_clst[2,0] = P[2,0]+f*(P[2,1]-P[2,0])
 
-	if d2 < 0:
+	if -d2 < 0:
 		f = 0
 	elif -d2 > a2:
 		f = 1
