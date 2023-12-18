@@ -14,9 +14,9 @@ This repository provides a ground motion models (GMMs) and supporting tools. The
 
 ### Example
 Three examples on Jupyter Notebooks are presented:
-- Use of Campbell and Bozorgnia models for the 1989 Loma Prieta Earthquake (single-segment fault) [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example1.ipynb)
-- Use of Campbell and Bozorgnia models for the 2023 Pazarcik Earthquake (multi-segment fault) [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example2.ipynb)
-- Use of the Foulser-Piggott and Goda models for the 2003 Tokachi Earthquake [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example3.ipynb)
+- Use of Campbell and Bozorgnia models for the 1989 Loma Prieta Earthquake (single-segment fault) [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example1.ipynb). En español [aquí](https://github.com/RPretellD/gmms/blob/main/Ejemplos/Ejemplo1.ipynb).
+- Use of Campbell and Bozorgnia models for the 2023 Pazarcik Earthquake (multi-segment fault) [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example2.ipynb). En español [aquí](https://github.com/RPretellD/gmms/blob/main/Ejemplos/Ejemplo2.ipynb).
+- Use of the Foulser-Piggott and Goda models for the 2003 Tokachi Earthquake [here](https://github.com/RPretellD/gmms/blob/main/Examples/Example3.ipynb). En español [aquí](https://github.com/RPretellD/gmms/blob/main/Ejemplos/Ejemplo2.ipynb).
 
 
 ### Acknowledgements
@@ -32,6 +32,6 @@ Three examples on Jupyter Notebooks are presented:
 
 ### Citation
 If you use these codes, please cite:<br>
-Renmin Pretell. (2023). RPretellD/gmms: Initial release (0.1.1). Zenodo. http://zenodo.org/10.5281/zenodo.10127855<br>
+Renmin Pretell. (2023). RPretellD/gmms (0.1.1). Zenodo. http://doi.org/10.5281/zenodo.10397816<br>
 
 [![DOI](https://zenodo.org/badge/716445161.svg)](https://zenodo.org/doi/10.5281/zenodo.10127854)
